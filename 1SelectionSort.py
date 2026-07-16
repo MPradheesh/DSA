@@ -9,5 +9,5 @@ def SelectionSort(numbers:list):
 def Main():
     numbers:list = list(map(int,input().split()))
     SelectionSort(numbers)
-    print(numbers)
+    print(*numbers)
 Main()
