@@ -1,3 +1,8 @@
+"""Selection Sort Algorithm 
+In this alogorithm we will find the minimum element in the list and place it at the beginning of the list and then we will find the next minimum element and place it at the second position and so on.
+Time Complexity: O(n^2)
+best case: O(n)"""
+
 def SelectionSort(numbers:list):
     for i in range(len(numbers)):
         minimum:int = i
